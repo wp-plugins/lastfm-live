@@ -4,7 +4,7 @@ Plugin Name: last.fm Live!
 Plugin URI: http://2amlife.com/projects/lastfmlive
 Description: Displays your recently played tracks PLUS will display what you currently listening to live via Last.FM.
 Author: Ryan Peel
-Version: 0.2.0
+Version: 0.2.1
 Author URI: http://2amlife.com/
 Text Domain: lastfmlive
 
