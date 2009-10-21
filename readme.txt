@@ -3,7 +3,7 @@ Contributors: choon
 Donate link: http://2amlife.com
 Tags: widget, music, scrobble, live, last.fm
 Requires at least: 2.7
-Tested up to: 2.8.4
+Tested up to: 2.8.5
 Stable tag: 0.2.0
 
 Displays your recently played tracks from last.fm in a widget, plus displays the current playing song live in realtime.
