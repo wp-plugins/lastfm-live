@@ -1,10 +1,5 @@
 <style>
 
-/*.widget_lastfm_liverecenttracks {
-	float:left;
-}*/
-
-
 #lastfmlive_recent_tracks {
 	font-size:9px;
 	line-height:14px;
@@ -13,11 +8,9 @@
 
 #lastfmlive_recent_tracks .lastfmlive_recently_played {
 	border-bottom:2px groove #FFFFFF;
-	margin-bottom:2px;
 	padding:2px;
-	padding-top:0px;
 	width:100%;
-	height: 30px;
+	height: 31px;
 }
 
 #lastfmlive_recent_tracks .lastfmlive_recently_played img{
@@ -30,26 +23,22 @@
 }
 
 #lastfmlive_recent_tracks .lastfmlive_song_info{
-	width:80%;
 	margin-left: 35px;
 	top:-30px;
 	position:relative;
 }
 
 #lastfmlive_recent_tracks .lastfmlive_recently_played .lastfmlive_song_title{
-	width:100%;
 	overflow:hidden;
 	height:15px;
 }
 
 #lastfmlive_recent_tracks .lastfmlive_recently_played .time{
 	font-size:8px;
-	width:100%;
 }
 
 #lastfmlive_recent_tracks .lastfmlive-now-playing{
-	background:#F7F7F7 url(wp-content/plugins/lastfm-live/img/icon_eq.gif) no-repeat scroll 98% 16px;
-	padding-right:5px;
+	background:transparent url(http://cdn.last.fm/flatness/global/icon_eq.gif) no-repeat scroll 99% 16px;
 }
 
 #lastfmlive_profile_link {
@@ -59,20 +48,18 @@
 
 #lastfmlive_profile_link a{
 	float:right;
-	margin:0;
-	height:20px;
-	width:16px;
+	margin:0px;
+	padding-top:2px;
 }
 
 #lastfmlive_profile_link a:hover{
 	text-decoration:none;
 }
 </style>
-
-	<div id="lastfmlive_recent_tracks">
-		{RECENT_TRACKS}
-	</div>
-	<div id="lastfmlive_profile_link">
-		<a href="{PROFILE_URL}"><img src="http://www.last.fm/favicon.ico" alt="last.fm" title="last.fm profile page" /></a>
-	</div>
+<div id="lastfmlive_recent_tracks">
+	{RECENT_TRACKS}
+</div>
+<div id="lastfmlive_profile_link">
+	<a href="{PROFILE_URL}" target="_blank"><img src="http://www.last.fm/favicon.ico" alt="last.fm" title="last.fm profile page" /></a>
+</div>
 
