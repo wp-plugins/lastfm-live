@@ -26,7 +26,9 @@ Boston, MA  02110-1301, USA.
 Copyright (C) 2009, Ryan Peel ryan@2amlife.com
 */
 
-date_default_timezone_set('UTC');
+if(function_exists(date_default_timezone_set)){
+	date_default_timezone_set('UTC');
+}
 
 !defined('WP_ADMIN_URL') ? define('WP_ADMIN_URL', get_option('siteurl') . '/wp-admin') :0;
 
