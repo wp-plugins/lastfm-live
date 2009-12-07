@@ -1,1 +1,55 @@
-/* Placeholder for next release */
+#lastfmlive_recent_tracks {
+	font-size:7pt;
+	line-height:14px;
+	width:98%;
+}
+
+#lastfmlive_recent_tracks .lastfmlive_recently_played {
+	border-bottom:2px groove #FFFFFF;
+	padding:2px;
+	width:100%;
+	height: 31px;
+}
+
+#lastfmlive_recent_tracks .lastfmlive_recently_played img{
+	border:1px groove #b2b2b2;
+	height:26px;
+	overflow:hidden;
+	margin-right:3px;
+	padding:1px;
+	width:26px;
+}
+
+#lastfmlive_recent_tracks .lastfmlive_song_info{
+	margin-left: 35px;
+	top:-30px;
+	position:relative;
+}
+
+#lastfmlive_recent_tracks .lastfmlive_recently_played .lastfmlive_song_title{
+	overflow:hidden;
+	height:15px;
+}
+
+#lastfmlive_recent_tracks .lastfmlive_recently_played .time{
+	font-size:6pt;
+}
+
+#lastfmlive_recent_tracks .lastfmlive-now-playing{
+	background:transparent url(http://cdn.last.fm/flatness/global/icon_eq.gif) no-repeat scroll 99% 16px;
+}
+
+#lastfmlive_profile_link {
+	width:100%;
+	height:20px;
+}
+
+#lastfmlive_profile_link a{
+	float:right;
+	margin:0px;
+	padding-top:2px;
+}
+
+#lastfmlive_profile_link a:hover{
+	text-decoration:none;
+}

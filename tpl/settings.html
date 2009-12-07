@@ -1,23 +1,16 @@
-{HEADER}
-<div id="livechoons-upload-messages" class="updated"  style="display:none" ></div>
-<div id="livechoons-settings">
-	<div id="livechoons-autoreplace" class="livechoons-options-block">
-		<form id="username_form" class="livechoons-settings-block">
-		<h2>Last.FM Username</h2>
-		<div class="livechoons-settings-content">
-			<p>{HELP_MSG}</p>
-			<label for="livechoons_lastfm_username">Last.FM username:</label>
-			<input type="hidden" name="option[0]" value="livechoons_lastfm_username" />
-			<input type="text" name="result[livechoons_lastfm_username]" id="livechoons_lastfm_username" value="{USERNAME}" /><br /><br />
-
-			<label for="livechoons_lastfm_track_limit">Recent Track Limit:</label>
-			<input type="hidden" name="option[1]" value="livechoons_lastfm_track_limit" />
-			<input type="text" name="result[livechoons_lastfm_track_limit]" id="livechoons_lastfm_track_limit" value="{TRACKLIMIT}" /><br /><br />
-
-			<input type="button" class="button-primary" onclick="LiveChoons.updateOptions('username_form');" value="Save Settings" />
-		</form>
-		{PREVIEW}
-	</div>
-</div>
-
-{FOOTER}
+ <p>
+	<label for="{TITLE_ID}">{TITLE_LABEL}</label>
+	<input class="widefat" id="{TITLE_ID}" name="{TITLE_NAME}" type="text" value="{TITLE_VALUE}" />
+</p>
+<p>
+	<label for="{USERNAME_ID}">{USERNAME_LABEL}</label>
+	<input class="widefat" id="{USERNAME_ID}" name="{USERNAME_NAME}" type="text" value="{USERNAME_VALUE}" />
+</p>
+<p>
+	<label for="{LIVETXT_ID}">{LIVETXT_LABEL}</label>
+	<input class="widefat" id="{LIVETXT_ID}" name="{LIVETXT_NAME}" type="text" value="{LIVETXT_VALUE}" />
+</p>
+<p>
+	<label for="{TRACKLIMIT_ID}">{TRACKLIMIT_LABEL}</label>
+	<input class="widefat" id="{TRACKLIMIT_ID}" name="{TRACKLIMIT_NAME}" type="text" value="{TRACKLIMIT_VALUE}" />
+</p>
