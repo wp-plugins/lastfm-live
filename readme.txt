@@ -4,7 +4,7 @@ Donate link: http://2amlife.com
 Tags: widget, music, scrobble, live, last.fm, api, realtime, play, feed, data, stream
 Requires at least: 2.7
 Tested up to: 2.9
-Stable tag: 0.2.3
+Stable tag: 0.2.4
 
 Widget to display your recently played tracks from last.fm LIVE! shows any song you play(& scrobble) on your site in realtime.
 
@@ -23,6 +23,11 @@ Some planned Features:
 * Additional widgets to display "Top Artists" and "Top Tracks" etc.
 
 == Changelog ==
+
+= 0.2.4 =
+
+* Added Option: Now Playing text.
+* Bugfix: Updated code to match the latest changes in the last.fm api. (fixes various bugs which appeared recently)
 
 = 0.2.3 =
 
