@@ -4,7 +4,7 @@ Plugin Name: last.fm Live!
 Plugin URI: http://2amlife.com/projects/lastfm-live
 Description: Displays recently played tracks from a last.fm account in a widget, along with the currently playing track live in realtime.
 Author: Ryan Peel
-Version: 0.2.4
+Version: 0.2.5
 Author URI: http://2amlife.com/
 Text Domain: lastfm-live
 
@@ -40,7 +40,7 @@ define('LASTFMLIVE_ROOT', WP_PLUGIN_DIR."/".basename(dirname( __FILE__ )));
 define('LASTFMLIVE_URL', WP_PLUGIN_URL."/".basename(dirname( __FILE__ )));
 define('LASTFMLIVE_TPL_DIR', LASTFMLIVE_ROOT."/tpl");
 define('LASTFMLIVE_LAK', "ab56575f312e3ed82281984edd2f1f1e");
-define('LASTFMLIVE_VERSION', "0.2.95");
+define('LASTFMLIVE_VERSION', "0.2.5");
 
 // function lastfmlive_install(){
 //
