@@ -3,8 +3,8 @@ Contributors: choon
 Donate link: http://2amlife.com
 Tags: widget, music, scrobble, live, last.fm, api, realtime, play, feed, data, stream
 Requires at least: 2.7
-Tested up to: 3.4
-Stable tag: 0.2.5
+Tested up to: 4.0
+Stable tag: 0.2.6
 
 Widget to display your recently played tracks from last.fm LIVE! shows any song you play(& scrobble) on your site in realtime.
 
@@ -13,16 +13,8 @@ Widget to display your recently played tracks from last.fm LIVE! shows any song 
 Widget to display your recently played tracks from last.fm LIVE! Which means the widget will display the song you are currently listening to (provided that you are scrobbling to last.fm) along with your chosen number of previously played songs.
 
 
-This is the initial release for last.fm Live with and while it has fairly limited features at this stage, it is more than stable enough for everyday use. Extending the feature set is still on my list of things to do sometime in the near future. ;)
-
-Some planned Features:
-
-* Choice of clientside or serverside rendering of the widget.
-* Auto updating of the tracks via ajax.
-* Different layout choices/theming support
-* Additional widgets to display "Top Artists" and "Top Tracks" etc.
-
 == Changelog ==
+
 
 = 0.2.5 =
 
